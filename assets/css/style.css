@@ -87,9 +87,6 @@ header{
    background-color: rgb(234, 250, 243);
    border-radius: 16px;
 }
-.section-one-div-1{
-    
-}
 .section-one-heading-one{
     font-size: 32px;
     margin-bottom: 32px;
@@ -198,4 +195,59 @@ header{
     height: 134px;
     margin-right: 10px;
     margin-bottom: 50px;
+}
+.links{
+    display: flex;
+    padding: 64px 0;
+    margin: 0 20px;
+    background-color: rgb(250, 251, 251);
+    border-radius: 8px;
+}
+.facebook-image{
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+}
+.links-div-2{
+    display: flex;
+    flex-direction: column;
+}
+.links-div-1{
+    margin: 10px;
+}
+.links-div-1{
+    margin: 0 41px 0 54px;
+}
+.section-three-heading-one{
+    font-size: 14px;
+    margin-bottom: 16px;
+    color: #44474A;
+}
+.section-three-links{
+    font-size: 16px;
+    color: #5C5F62;
+    padding: 5px 0;
+    text-decoration: none;
+}
+.links-div-3{
+    padding-bottom: 5px;
+}
+.section-three-links:hover{
+    color: #44474A;
+}
+footer{
+    margin: 0 20px 4px 20px;
+    background-color:rgb(237 241 241);
+    border-radius: 8px;
+    padding: 24px 57px;
+}
+.footer-links{
+    font-size: 14px;
+    color: #6D7175;
+    text-decoration: none;
+    padding-right: 10px;
+    font-weight: 900;
+}
+.footer-links:hover{
+    color: black;
 }
